@@ -3,18 +3,15 @@
 namespace Stereoide\ModelBaseEntity;
 
 use Illuminate\Database\Eloquent\Model;
-use Stereoide\ResolvesEntityType;
 
 class Entity extends Model
 {
-	use ResolvesEntityType;
-	
-    /**
+	/**
      * The database table used by the model.
      *
      * @var string
      */
-    protected $table = '';
+    protected $table = 'entities';
 
     /**
      * Attributes that should be mass-assignable.
@@ -48,7 +45,7 @@ class Entity extends Model
         'deleted_at',
     ];
     
-    public function boot() {
+    public function __construct() {
         $this->table = config('modelbaseentity.base_entities_table', 'entities');
     }
 }

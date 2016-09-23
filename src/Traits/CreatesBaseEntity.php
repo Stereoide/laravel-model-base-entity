@@ -19,7 +19,9 @@ trait CreatesBaseEntity
             
             $entityType = $model->getEntityType();
             
-            $entity = Entity::create(['entity_type' => $entityType]);
+            $entity = new Entity;
+            $entity->entity_type = $entityType;
+            $entity->save();
 
             /* Set model id */
 
