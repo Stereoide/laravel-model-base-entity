@@ -1,0 +1,1 @@
+# laravel-model-base-entity
