@@ -1,4 +1,4 @@
-# Laravel-ModelBaseEntity
+# Laravel-Model-Base-Entity
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -52,17 +52,17 @@ If you discover any security related issues, please email Stereoide@gmail.com in
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/Stereoide/Laravel-ModelBaseEntity.svg?style=flat-square
+[ico-version]: 		
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Stereoide/Laravel-ModelBaseEntity/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Stereoide/Laravel-ModelBaseEntity.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/Stereoide/Laravel-ModelBaseEntity.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/Stereoide/Laravel-ModelBaseEntity.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Stereoide/Laravel-Model-Base-Entity/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Stereoide/Laravel-Model-Base-Entity.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/Stereoide/Laravel-Model-Base-Entity.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/Stereoide/Laravel-Model-Base-Entity.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/Stereoide/Laravel-ModelBaseEntity
-[link-travis]: https://travis-ci.org/Stereoide/Laravel-ModelBaseEntity
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Stereoide/Laravel-ModelBaseEntity/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Stereoide/Laravel-ModelBaseEntity
-[link-downloads]: https://packagist.org/packages/Stereoide/Laravel-ModelBaseEntity
+[link-packagist]: https://packagist.org/packages/Stereoide/Laravel-Model-Base-Entity
+[link-travis]: https://travis-ci.org/Stereoide/Laravel-Model-Base-Entity
+[link-scrutinizer]: https://scrutinizer-ci.com/g/Stereoide/Laravel-Model-Base-Entity/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/Stereoide/Laravel-Model-Base-Entity
+[link-downloads]: https://packagist.org/packages/Stereoide/Laravel-Model-Base-Entity
 [link-author]: https://github.com/stereoide
 [link-contributors]: ../../contributors
