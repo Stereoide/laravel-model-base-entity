@@ -13,7 +13,17 @@ class ModelBaseEntityServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        /* Config file */
+        
+        $this->publishes([
+            __DIR__.'/config/config.php' => config_path('modelbaseentity.php')
+        ], 'config');
+        
+        /* Database migrations */
+        
+        $this->publishes([
+            __DIR__.'/migrations' => database_path('migrations')
+        ], 'migrations');        
     }
 
     /**
