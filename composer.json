@@ -1,5 +1,5 @@
 {
-    "name": "stereoide/model-base-entity",
+    "name": "stereoide/laravel-model-base-entity",
     "type": "library",
     "description": "Package for Laravel to create a entities table/model  uses that to ensure a sequential id to different models instead of each model having its own incrementing id",
     "keywords": [
